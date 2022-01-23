@@ -1,8 +1,8 @@
 
-const inputBox = document.querySelector(".inputField input");
-const addBtn = document.querySelector(".inputField button");
-const todoList = document.querySelector(".todoList");
-const deleteAllBtn = document.querySelector(".footer button");
+var inputBox = document.querySelector(".inputField input");
+var addBtn = document.querySelector(".inputField button");
+var todoList = document.querySelector(".todoList");
+var deleteAllBtn = document.querySelector(".footer button");
 
 
 inputBox.onkeyup = ()=>{
