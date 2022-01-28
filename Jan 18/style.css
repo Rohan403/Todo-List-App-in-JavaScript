@@ -1,0 +1,91 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+*{
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    background-color: aliceblue;
+}
+.header a{
+    text-decoration: none;
+}
+body{
+    width: 480px;
+    margin-left: 380px;
+}
+.navbar1{
+    justify-content: space-between;
+    font-size: large;
+}
+.header span{
+    margin-left: 10px;
+    font-family: 'Billabong', sans-serif;
+}
+input[type="text"]{
+    border-radius: 10px;
+    border-width: 1px;
+    border:transparent;
+    outline:none;
+}
+.body img{
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.body span{
+    font-size: 15px;
+    padding-left: 10px;
+    position: relative;
+    top:-12px;
+    left:-6px;
+}
+.body .span2{
+    padding-left: 65px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.img1{
+    height:250px;
+    width:100%;
+}
+button{
+    padding-top: 12px;
+    border:transparent;
+}
+.body2 img{
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.img2{
+    display:flex;
+    height:250px;
+    width:100%;
+}
+.body2 span{
+    position:relative;
+    bottom:15px;
+}
+.body2 .span3{
+    position:relative;
+    left:60px;
+    font-weight: bold;
+    font-size:12px;
+    bottom:12px;
+}
+.list{
+    height:100vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+#id{
+    font-weight: bold;
+}
