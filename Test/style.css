@@ -1,0 +1,32 @@
+table,
+tr,
+td {
+  border: 2px solid whitesmoke;
+}
+td {
+  padding: 5px;
+}
+table {
+  text-align: center;
+  margin: auto;
+  background-image: linear-gradient(to right, rgba(23, 137, 230, 0.911),rgba(158, 13, 216, 0.76),green,rgba(197, 15, 24, 0));
+  color: white;
+}
+body {
+ background-image: linear-gradient(to right, red,blue);
+}
+#con12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#btn {
+  padding: 5px;
+  background-color:rgb(69, 69, 219);
+}
+#search{
+    padding-left: 20px;
+}
+td {
+  padding: 10px;
+}
