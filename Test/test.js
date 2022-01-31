@@ -4,8 +4,9 @@ var search = document.getElementById("search");
 
 btn.addEventListener("click", function () {
   var url = `http://universities.hipolabs.com/search?country=${search.value}`;
-    search.value = search.value.replace(/ /g,"+")
-  console.log(search.value)
+ search.value = search.value.replace(/ /g,"+")
+
+  console.log(search.value);
   fetch(url)
     .then((data) => {
       return data.json();
