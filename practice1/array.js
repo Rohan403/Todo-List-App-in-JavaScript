@@ -1,4 +1,4 @@
-let arr = [1,2,6,4,"Rohan"];
+/* let arr = [1,2,6,4,"Rohan"];
 console.log(arr.length);
 let arr1 = arr.length - 1;
 console.log(arr1);
@@ -16,3 +16,12 @@ console.log(arr.indexOf(arr1));
  arr.pop()
  console.log(arr);
  
+ */
+ var restoreString = function(s, indices) {
+    let obj = [];
+ for (let i = 0; i  < s.length; i++) {
+      obj[indices[i]] = s[i];
+  }
+ return obj.join('');
+};
+restoreString()
